@@ -66,3 +66,22 @@ print(name.upper())
 print(name.lower())
 
 print(s.replace('sachiko', 'happy'))
+
+r = [1,2,3,4,5,6,7,5,4,3,2]
+print(r.index(1))
+print(r.index(3))
+print(r.index(3,3))
+print(r.index(4,1))
+print(r.count(4))
+print(r.count(1))
+
+if 5 in r:
+    print('exist')
+
+if 0 in r:
+    print('exist')
+else:
+    print('gone')
+
+r.sort()
+print(r)
